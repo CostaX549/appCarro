@@ -28,5 +28,17 @@ namespace appCarro
             cadastroForm.ShowDialog();
 
         }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Buscar_Carro buscarForm = new Buscar_Carro();
+            buscarForm.ShowDialog();
+        }
+
+        private void alterarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Alterar_Carro alterarForm = new Alterar_Carro();
+            alterarForm.ShowDialog();
+        }
     }
 }
